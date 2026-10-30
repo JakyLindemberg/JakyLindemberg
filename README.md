@@ -1,10 +1,8 @@
-<!-- GitHub Profile README — Jaky Lindemberg -->
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1622,55:0E3B43,100:117865&height=170&section=header&text=Jaky%20Lindemberg&fontSize=50&fontColor=FFFFFF&fontAlignY=42&desc=Senior%20Data%20Professional%20%C2%B7%20Microsoft%20Fabric%20%C2%B7%20Data%20and%20Analytics%20Engineering&descSize=17&descAlignY=68&animation=fadeIn" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=900&color=2BD4A4&center=true&vCenter=true&width=720&lines=End-to-end+data+platforms+on+Microsoft+Fabric;Python+%C2%B7+PySpark+%C2%B7+SQL+%C2%B7+T-SQL+%C2%B7+DAX;Lakehouse+%E2%86%92+Warehouse+%E2%86%92+Semantic+Model+%E2%86%92+Power+BI;5x+Microsoft+Certified+%C2%B7+DP-700+%C2%B7+DP-600+%C2%B7+PL-300" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=900&color=2BD4A4&center=true&vCenter=true&width=720&lines=End-to-end+projects+on+Microsoft+Fabric;Python+%C2%B7+PySpark+%C2%B7+SQL+%C2%B7+T-SQL+%C2%B7+DAX;Lakehouse+%E2%86%92+Warehouse+%E2%86%92+Semantic+Model+%E2%86%92+Power+BI;5x+Microsoft+Certified+%C2%B7+DP-700+%C2%B7+DP-600+%C2%B7+PL-300" alt="Typing SVG"/>
 
 <a href="https://www.linkedin.com/in/jaky-lindemberg"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:jaky.lindemberg@gmail.com"><img src="https://img.shields.io/badge/Email-0E3B43?style=for-the-badge&logo=gmail&logoColor=white"/></a>
@@ -17,30 +15,32 @@
 
 <br/>
 
-I design and deliver **end-to-end data platforms on Microsoft Fabric** — from source ingestion to governed semantic models and executive reporting. With **9+ years in data** and **five Microsoft certifications**, including **DP-700 (Fabric Data Engineer)** and **DP-600 (Fabric Analytics Engineer)**, I combine engineering discipline with business context to build data products that leadership relies on to make decisions.
+I'm a data professional based in São Paulo with **9+ years of experience**. Today most of my work happens on **Microsoft Fabric**, where I take projects from start to finish: bringing data in from APIs and databases, cleaning and modelling it with **PySpark** and **SQL**, and delivering semantic models and **Power BI** reports that people use to run the business.
 
-My work spans the full data lifecycle: **PySpark** and **Python** pipelines, **T-SQL** warehousing, **dimensional modelling**, **DAX** semantic layers and **Power BI** reporting — engineered for reliability, performance and governance.
+Before that, I spent six years in contact-centre BI, building reports with SQL, Excel and VBA. That's where I learned to care about data that is correct, on time and easy to understand.
+
+I hold **five Microsoft certifications**, including **DP-700 (Fabric Data Engineer)** and **DP-600 (Fabric Analytics Engineer)**.
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/9%2B_years-in_data-0E3B43?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/5x-Microsoft_Certified-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
-<img src="https://img.shields.io/badge/End--to--end-Microsoft_Fabric-117865?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Hours_→_Minutes-pipeline_optimisation-0B1622?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/End--to--end-Fabric_projects-117865?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Hours_→_Minutes-workflow_automation-0B1622?style=for-the-badge"/>
 
 </div>
 
 <br/>
 
-## Core Expertise
+## What I Work With
 
-| Domain | What I deliver |
+| Area | Day to day |
 |---|---|
-| **Data Engineering** | Batch ingestion with Fabric Data Pipelines and Dataflows Gen2; PySpark notebooks for transformation at scale; medallion architecture on Lakehouse with Delta Lake. |
-| **Analytics Engineering** | Star-schema modelling, T-SQL Warehouse development, Direct Lake and Import semantic models, DAX measures and performance tuning. |
-| **Business Intelligence** | Executive and operational Power BI solutions with KPI frameworks designed alongside directors and C-level stakeholders. |
-| **Integration & Automation** | REST APIs, Microsoft Graph and Azure Management ingestion; Azure Functions, Logic Apps and Power Automate orchestration. |
-| **Statistics & ML** | Exploratory analysis, correlation and distribution analysis, regression and classification models applied to business problems. |
+| **Data Engineering** | Ingestion with Data Pipelines and Dataflows Gen2, PySpark notebooks for transformations, and Bronze, Silver and Gold layers in the Lakehouse with Delta tables. |
+| **Analytics Engineering** | Dimensional modelling (star schema), T-SQL in the Fabric Warehouse, Direct Lake and Import semantic models, DAX measures and performance tuning. |
+| **Business Intelligence** | Executive and operational Power BI reports, with KPIs defined together with managers and directors. |
+| **Integration & Automation** | Data collection from REST APIs, Microsoft Graph and Azure Management, with automations in Python, Azure Functions, Logic Apps and Power Automate. |
+| **Statistics & ML** | Exploratory, correlation and distribution analysis, plus regression and classification models for business questions. |
 
 <br/>
 
@@ -73,15 +73,15 @@ My work spans the full data lifecycle: **PySpark** and **Python** pipelines, **T
   </tr>
 </table>
 
-<sub>All credentials are verifiable on Microsoft Learn — click any badge.</sub>
+<sub>Click a badge to verify the credential on Microsoft Learn.</sub>
 
 </div>
 
 <br/>
 
-## Reference Architecture
+## How I Structure a Fabric Project
 
-How I structure end-to-end solutions on Microsoft Fabric:
+The layout I usually follow, adapted to each case:
 
 ```mermaid
 flowchart LR
@@ -102,24 +102,22 @@ flowchart LR
 
 <br/>
 
-## Engineering Principles
+## How I Work
 
-| Principle | In practice |
-|---|---|
-| **Reliable by design** | Idempotent loads, incremental processing with Delta `MERGE`, and pipelines that are safe to re-run. |
-| **Quality at every layer** | Schema enforcement, deduplication and validation rules between Bronze, Silver and Gold. |
-| **Model for the business** | Star schemas and semantic models built around the decisions stakeholders need to make. |
-| **Governed and secure** | Workspace and item permissions, row-level security and certified, reusable semantic models. |
-| **Performance and cost aware** | Partitioning, V-Order and Direct Lake to keep refreshes fast and capacity usage under control. |
+- Loads are incremental and safe to re-run (Delta `MERGE`), so a failed run never duplicates data.
+- Data is checked between layers: schema, duplicates and basic validation rules.
+- Models are designed around the questions the business needs answered, not around the source tables.
+- Access is controlled with workspace permissions and row-level security, and semantic models are shared instead of copied.
+- I keep an eye on performance and capacity cost, using partitioning, V-Order and Direct Lake where they make sense.
 
 <br/>
 
 ## Code Samples
 
-A glimpse of how I write production code across the stack.
+Short examples of the kind of code I write day to day.
 
 <details>
-<summary><b>PySpark</b> — incremental upsert from Bronze to Silver with Delta Lake</summary>
+<summary><b>PySpark</b>: incremental upsert from Bronze to Silver with Delta Lake</summary>
 
 ```python
 from delta.tables import DeltaTable
@@ -151,7 +149,7 @@ silver_df = (
 </details>
 
 <details>
-<summary><b>T-SQL</b> — Gold layer view in the Fabric Warehouse</summary>
+<summary><b>T-SQL</b>: Gold layer view in the Fabric Warehouse</summary>
 
 ```sql
 CREATE OR ALTER VIEW gold.vw_service_desk_sla
@@ -174,7 +172,7 @@ GROUP BY
 </details>
 
 <details>
-<summary><b>DAX</b> — SLA compliance measure in the semantic model</summary>
+<summary><b>DAX</b>: SLA compliance measure in the semantic model</summary>
 
 ```dax
 SLA Compliance % =
@@ -197,12 +195,12 @@ RETURN
 
 <br/>
 
-## Track Record
+## Results
 
-- **Hours to minutes.** Re-engineered data collection and transformation workflows with Python and Azure Functions, cutting processing time from hours to minutes.
-- **Decision-grade reporting.** Power BI solutions used by directors and corporate clients to manage IT operations, security, service management and performance.
-- **Data at scale.** Pipelines that process audit logs and telemetry from Microsoft cloud environments to support monitoring and governance.
-- **Six years of operational analytics.** Built the reporting backbone of multiple contact-centre operations (SLA, AHT, abandonment, adherence), replacing manual spreadsheets with automated SQL-driven reports.
+- Rebuilt data collection and transformation workflows with Python and Azure Functions, bringing processing time down from hours to minutes.
+- Power BI reports used by directors and corporate clients to follow IT operations, security and service management.
+- Pipelines that process audit logs and telemetry from Microsoft environments for monitoring and governance.
+- Six years in contact-centre BI, replacing manual spreadsheets with SQL-connected reports for SLA, AHT, abandonment and adherence.
 
 <br/>
 
@@ -238,7 +236,7 @@ RETURN
 <img src="https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square&logo=powerautomate&logoColor=white"/>
 <img src="https://img.shields.io/badge/Power_Apps-742774?style=flat-square&logo=powerapps&logoColor=white"/>
 
-**Data Science & Engineering Practices**<br/>
+**Data Science & Tools**<br/>
 <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
@@ -252,9 +250,9 @@ RETURN
 
 ## Currently
 
-- **Building** a portfolio of end-to-end Microsoft Fabric projects — public repositories coming soon.
-- **Deepening** CI/CD for Fabric with Git integration and deployment pipelines.
-- **Exploring** Real-Time Intelligence with Eventstreams, Eventhouse and KQL.
+- Preparing end-to-end Fabric projects to publish here on GitHub.
+- Studying CI/CD for Fabric: Git integration and deployment pipelines.
+- Exploring Real-Time Intelligence with Eventstreams, Eventhouse and KQL.
 
 <br/>
 
@@ -264,38 +262,40 @@ RETURN
 
 ## Português
 
-Projeto e entrego **plataformas de dados end-to-end no Microsoft Fabric** — da ingestão das fontes até modelos semânticos governados e relatórios executivos. Com **mais de 9 anos em dados** e **cinco certificações Microsoft**, incluindo **DP-700 (Fabric Data Engineer)** e **DP-600 (Fabric Analytics Engineer)**, uno rigor de engenharia e visão de negócio para construir produtos de dados que sustentam as decisões da liderança.
+Sou profissional de dados em São Paulo, com **mais de 9 anos de experiência**. Hoje a maior parte do meu trabalho acontece no **Microsoft Fabric**, onde conduzo projetos do início ao fim: trago dados de APIs e bancos de dados, faço a limpeza e a modelagem com **PySpark** e **SQL**, e entrego modelos semânticos e relatórios em **Power BI** que as áreas usam no dia a dia.
 
-Minha atuação cobre todo o ciclo de vida do dado: pipelines em **PySpark** e **Python**, data warehouse em **T-SQL**, **modelagem dimensional**, camadas semânticas em **DAX** e relatórios em **Power BI**, projetados para confiabilidade, performance e governança.
+Antes disso, passei seis anos em BI de contact center, criando relatórios com SQL, Excel e VBA. Foi ali que aprendi a valorizar dado correto, no prazo e fácil de entender.
 
-**Especialidades**
+Tenho **cinco certificações Microsoft**, entre elas **DP-700 (Fabric Data Engineer)** e **DP-600 (Fabric Analytics Engineer)**.
 
-- **Engenharia de Dados:** ingestão com Data Pipelines e Dataflows Gen2, transformação em escala com notebooks PySpark e arquitetura medallion em Lakehouse com Delta Lake.
-- **Analytics Engineering:** modelagem star schema, desenvolvimento de Warehouse em T-SQL, modelos semânticos Direct Lake e Import, DAX e otimização de performance.
-- **Business Intelligence:** soluções executivas e operacionais em Power BI, com frameworks de KPIs definidos junto a diretores e executivos.
-- **Integração e Automação:** ingestão via APIs REST, Microsoft Graph e Azure Management; orquestração com Azure Functions, Logic Apps e Power Automate.
-- **Estatística e ML:** análise exploratória, correlação, distribuições e modelos de regressão e classificação aplicados a problemas de negócio.
+**Com o que trabalho**
+
+- **Engenharia de Dados:** ingestão com Data Pipelines e Dataflows Gen2, transformações em notebooks PySpark e camadas Bronze, Silver e Gold no Lakehouse com tabelas Delta.
+- **Analytics Engineering:** modelagem dimensional (star schema), T-SQL no Warehouse do Fabric, modelos semânticos Direct Lake e Import, medidas DAX e ajuste de performance.
+- **Business Intelligence:** relatórios executivos e operacionais em Power BI, com KPIs definidos junto com gestores e diretores.
+- **Integração e Automação:** coleta de dados de APIs REST, Microsoft Graph e Azure Management, com automações em Python, Azure Functions, Logic Apps e Power Automate.
+- **Estatística e ML:** análise exploratória, de correlação e de distribuições, além de modelos de regressão e classificação para perguntas de negócio.
+
+**Como eu trabalho**
+
+- As cargas são incrementais e podem ser reexecutadas com segurança (`MERGE` em Delta), então uma falha não duplica dados.
+- Os dados são validados entre as camadas: schema, duplicidades e regras básicas.
+- Os modelos são desenhados a partir das perguntas que o negócio precisa responder, e não a partir das tabelas de origem.
+- O acesso é controlado com permissões de workspace e row-level security, e os modelos semânticos são compartilhados em vez de copiados.
+- Acompanho performance e custo de capacidade, usando particionamento, V-Order e Direct Lake quando fazem sentido.
 
 **Resultados**
 
-- Reestruturei fluxos de coleta e transformação de dados com Python e Azure Functions, **reduzindo o tempo de processamento de horas para minutos**.
-- Soluções em Power BI utilizadas por diretores e clientes corporativos na gestão de operações de TI, segurança e serviços.
-- Pipelines que processam logs de auditoria e telemetria de ambientes Microsoft em larga escala, apoiando monitoramento e governança.
-- Seis anos construindo a base analítica de operações de contact center, substituindo planilhas manuais por relatórios automatizados em SQL.
-
-**Princípios de engenharia**
-
-- **Confiável por design:** cargas idempotentes, processamento incremental com `MERGE` em Delta e pipelines seguros para reexecução.
-- **Qualidade em todas as camadas:** controle de schema, deduplicação e regras de validação entre Bronze, Silver e Gold.
-- **Modelagem orientada ao negócio:** star schemas e modelos semânticos construídos em torno das decisões que a liderança precisa tomar.
-- **Governança e segurança:** permissões por workspace e item, row-level security e modelos semânticos certificados e reutilizáveis.
-- **Performance e custo:** particionamento, V-Order e Direct Lake para refreshes rápidos e uso de capacidade sob controle.
+- Refiz fluxos de coleta e transformação de dados com Python e Azure Functions, reduzindo o tempo de processamento de horas para minutos.
+- Relatórios em Power BI usados por diretores e clientes corporativos para acompanhar operações de TI, segurança e gestão de serviços.
+- Pipelines que processam logs de auditoria e telemetria de ambientes Microsoft para monitoramento e governança.
+- Seis anos em BI de contact center, trocando planilhas manuais por relatórios conectados ao SQL para SLA, TMA, abandono e aderência.
 
 **Atualmente**
 
-- **Construindo** um portfólio de projetos end-to-end no Microsoft Fabric — repositórios públicos em breve.
-- **Aprofundando** CI/CD no Fabric com Git integration e deployment pipelines.
-- **Explorando** Real-Time Intelligence com Eventstreams, Eventhouse e KQL.
+- Preparando projetos end-to-end no Fabric para publicar aqui no GitHub.
+- Estudando CI/CD no Fabric: Git integration e deployment pipelines.
+- Explorando Real-Time Intelligence com Eventstreams, Eventhouse e KQL.
 
 **Certificações Microsoft:** DP-700 · DP-600 · PL-300 · AI-900 · PL-900
 
@@ -303,8 +303,8 @@ Minha atuação cobre todo o ciclo de vida do dado: pipelines em **PySpark** e *
 
 <div align="center">
 
-**Open to opportunities in Data Engineering, Analytics Engineering and Microsoft Fabric.**<br/>
-<sub>Aberto a oportunidades em Engenharia de Dados, Analytics Engineering e Microsoft Fabric.</sub>
+**Open to Data Engineering, Analytics Engineering and Microsoft Fabric roles.**<br/>
+<sub>Aberto a vagas de Engenharia de Dados, Analytics Engineering e Microsoft Fabric.</sub>
 
 <br/>
 
