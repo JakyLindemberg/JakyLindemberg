@@ -8,6 +8,7 @@
 
 <a href="https://www.linkedin.com/in/jaky-lindemberg"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:jaky.lindemberg@gmail.com"><img src="https://img.shields.io/badge/Email-0E3B43?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://wa.me/5511989814320"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 <a href="#microsoft-certifications"><img src="https://img.shields.io/badge/5x_Microsoft_Certified-Verified-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/></a>
 
 <sub><b>English</b> · <a href="#português">Português</a></sub>
@@ -308,6 +309,7 @@ Minha atuação cobre todo o ciclo de vida do dado: pipelines em **PySpark** e *
 <br/>
 
 <a href="https://www.linkedin.com/in/jaky-lindemberg"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://wa.me/5511989814320"><img src="https://img.shields.io/badge/Chat_on_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:117865,55:0E3B43,100:0B1622&height=6&section=footer" width="100%"/>
 
